@@ -4,7 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
 
+    background-color: #080808;
+
+    text-align: center;
+    background-image:
+    url(https://media.istockphoto.com/id/831288314/photo/halloween-celebration.jpg?s=612x612&w=0&k=20&c=v-ObS0CeEQOlRndCok1nDeqiNrYBvo3QeSLUl2s5_Mo=);
+}
 
 
 
@@ -18,16 +25,18 @@ header {
 }
 
 h1 {
-    color: blue
+    color: #FFF8Dc 
+    
 }
 
 h2 {
-    color: brown;
+    color: #0066CC;
     padding: 5px;
     margin-top: 10px;
 }
 
 p {
+    color:  #ee12d8;
     padding: 5px;
     margin-top: 10px;
     font-size: 20px;
@@ -45,14 +54,15 @@ p {
     padding: 10px;
     margin-top: 10px;
 }
-h3{ 
+
+h3 {
     color: red;
     padding: 10px;
     margin-top: 10px;
 }
 
 .post {
-    color: green;
+    color: rgb(253, 252, 253);
     padding: 10px;
     margin-top: 10px;
 }
@@ -62,13 +72,15 @@ h3{
     padding: 10px;
     margin-top: 10px;
 }
-.modo { 
 
+.modo {
     margin-top: 10px;
-    padding: 10px;}
+    padding: 10px;
+}
 
-    .liga{
-     display: block;
+.liga {
+    display: block;
     justify-content: space-around;
-   
-    }
+
+}
+

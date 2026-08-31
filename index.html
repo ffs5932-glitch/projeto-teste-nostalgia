@@ -9,9 +9,10 @@
 </head>
 
 <body>
+<img src="https://i.pinimg.com/originals/a0/12/c5/a012c5379db2ba8bce44f5cece7bcf0d.gif"  >
     <header>
         <h1> Os anos <b>90</b> e suas magias marcaram uma geração.</h1>
-        <h2> tazos </h2>
+        <h2> <b> tazos  </b> </h2>
         <p>Em meados de <b>1990</b>, surgiram os famosos Tazos, que rapidamente se tornaram uma febre entre crianças e
             adolescentes, colecionados e trocados nos intervalos da escola.
             <br> com diversos personagens de desenhos animados, filmes e séries, os tasos se tornaram itens de desejo,
@@ -47,14 +48,15 @@
     <main>
 
         <h3> você já teve algum desses sim ou não?<br>
-             sim
-            <input type="checkbox" >
-            não <input type="checkbox" ></h3> 
-         
-        <p class=" post "> a minha coleção preferida era a de tazos de terror, com personagens assustadores e monstros
+            sim
+            <input type="checkbox">
+            não <input type="checkbox">
+        </h3>
+
+        <p class=" post "> <br> minha coleção preferida era a de tazos de terror, com personagens assustadores e monstros
             icônicos. eu
             adorava colecionar esses tazos , hoje jà não tenho <br>
-            mais, mas guardo boas lembranças dessa época. <br> <br>
+            mais, mas guardo boas lembranças dessa época.  </b>
 
 
 
@@ -71,7 +73,7 @@
             entre as crianças e colecionadores. Anos depois, em <b>2021</b>, a coleção ganhou um relançamento em
             versão comemorativa.</p>
 
-        
+
         <img src="./img/progeto nostalgia 2.jpg" alt="foto ilustrativa dos modelos de tazos" width="500" height="600">
         <img src="./img/projeto nostalgia 1.jpg" alt=" foto ilustrativa dos modelos de tazos" width="500" height="600">
 
@@ -84,12 +86,24 @@
     </div>
 
 
-<audio controls autoplay preload="metadata"loop>
-    <source src="./img/TearsForFearsVEVO-Tears_For_Fears_-_Ev-20260722032810-20260722032818.m4a#t=30" type="audio/mpeg">
+    <audio id="musica" controls autoplay loop preload="auto">
+        <source src="./img/TearsForFearsVEVO-Tears_For_Fears_-_Ev-20260722032810-20260722032818.m4a" type="audio/mp4">
 
-</audio>
-  
-  
-</body> 
+    </audio>
+
+    <script>
+        const musica = document.querySelector('#musica');
+
+        function tocarMusica() {
+            musica.play().catch(() => { });
+        }
+
+        window.addEventListener('load', tocarMusica);
+        document.addEventListener('click', tocarMusica, { once: true });
+        document.addEventListener('keydown', tocarMusica, { once: true });
+    </script>
+
+
+</body>
 
 </html>
