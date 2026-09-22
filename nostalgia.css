@@ -5,18 +5,14 @@
 }
 
 body {
-
-    background-color: #080808;
-
+    min-height: 100vh;
     text-align: center;
-    background-image:
-    url(https://media.istockphoto.com/id/831288314/photo/halloween-celebration.jpg?s=612x612&w=0&k=20&c=v-ObS0CeEQOlRndCok1nDeqiNrYBvo3QeSLUl2s5_Mo=);
+    background-image: url('https://media.istockphoto.com/id/831288314/photo/halloween-celebration.jpg?s=612x612&w=0&k=20&c=v-ObS0CeEQOlRndCok1nDeqiNrYBvo3QeSLUl2s5_Mo=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
-
-
-
-
 
 header {
     margin: 5px;
@@ -84,3 +80,7 @@ h3 {
 
 }
 
+.metal {
+    min-height: 100vh;
+    background-color: rgba(8, 8, 8, 0.75); /* mantém o fundo escuro sem esconder a imagem de fundo */
+}
